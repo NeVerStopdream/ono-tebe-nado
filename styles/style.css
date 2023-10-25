@@ -1,15 +1,21 @@
-html,
-body {
-    box-sizing: border-box;
-    max-width: 1440px;
-    padding: 0;
-    margin: auto;
+body,
+h1,
+h2,
+h3,
+h4,
+p button {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
 }
 
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1440px;
     margin-top: 92px;
     margin-left: 51px;
     margin-right: 49px;
@@ -324,6 +330,7 @@ body {
     font-size: 18px;
     line-height: normal;
     text-underline-offset: 2px;
+    text-decoration: underline 1px;
   }
 
 .footer__menu-link_active {
